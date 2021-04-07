@@ -3,47 +3,55 @@
 <head>
     <title>Doctor introduction</title>
     <meta charset="utf-8">
-       <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5H35TQ9WH"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-L5H35TQ9WH');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L5H35TQ9WH');
     </script>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <h1><a href="index.html">Doctor Introduction</a></h1>
-    <ol>
-        <li> <a href="introduction.html">introduction</a></li>
-        <li> <a href="portfolio.html">portfolio</a></li>
-        <li> <a href="contact.html">contact</a></li>
-    </ol>
-    <h2>본문</h2>
-    <p style="font-size: 17px">
-        안녕하세요 D.I입니다. 방문해주셔서 감사합니다.
-    </p>
-    <p>
-        <img src="marketing.jpg" width="50%">
-    </p>
-    <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-    <p>
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-            (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/606d2587f7ce18270937c815/1f2l5l774';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            })();
-            </script>
-            <!--End of Tawk.to Script-->
-    </p>
+    <div id="grid">
+        <ol>
+            <li> <a href="introduction.html">Introduction</a></li>
+            <li> <a href="portfolio.html">Portfolio</a></li>
+            <li> <a href="contact.html">Contact</a></li>            
+        </ol>
+        <div id="article">
+            <h2>본문</h2>
+            <p style="font-size: 17px">
+                안녕하세요 D.I입니다. 방문해주셔서 감사합니다.
+            </p>
+            <p>
+                <img src="marketing.jpg" width="560px">
+            </p>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+            <p>
+                <!--Start of Tawk.to Script-->
+                <script type="text/javascript">
+                    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                    (function(){
+                    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                    s1.async=true;
+                    s1.src='https://embed.tawk.to/606d2587f7ce18270937c815/1f2l5l774';
+                    s1.charset='UTF-8';
+                    s1.setAttribute('crossorigin','*');
+                    s0.parentNode.insertBefore(s1,s0);
+                    })();
+                    </script>
+                    <!--End of Tawk.to Script-->
+            </p>
+        
+        </div>    
+    </div>
 </body>
 </html>
